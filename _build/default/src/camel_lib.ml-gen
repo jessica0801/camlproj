@@ -1,0 +1,26 @@
+(** @canonical Camel_lib.Author *)
+module Author = Camel_lib__Author
+
+
+(** @canonical Camel_lib.Cactus *)
+module Cactus = Camel_lib__Cactus
+
+
+(** @canonical Camel_lib.Camel *)
+module Camel = Camel_lib__Camel
+
+
+(** @canonical Camel_lib.Camel_graphics *)
+module Camel_graphics = Camel_lib__Camel_graphics
+
+
+(** @canonical Camel_lib.Game *)
+module Game = Camel_lib__Game
+
+
+(** @canonical Camel_lib.Game_state *)
+module Game_state = Camel_lib__Game_state
+
+
+(** @canonical Camel_lib.Position *)
+module Position = Camel_lib__Position

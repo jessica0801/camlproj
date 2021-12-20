@@ -1,0 +1,3 @@
+(executables
+ (names run_camel)
+ (libraries async graphics base camel_lib))

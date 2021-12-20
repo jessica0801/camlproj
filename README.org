@@ -1,0 +1,12 @@
+  To run the game, run (from the root directory of the camel project):
+
+  #+BEGIN_SRC bash
+  $ dune exec bin/run_camel.exe
+  #+END_SRC
+
+  sfdsfssasdf
+  To test:
+  dune exec ./cactus_test.exe 
+
+  Lines of code:
+  cloc .

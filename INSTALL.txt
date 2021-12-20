@@ -1,0 +1,43 @@
+Instructions:
+
+1. Opam-
+The first step is to install opam, the OCaml package manager. (We will also 
+need m4, a tool used by certain packages to preprocess OCaml code). If you 
+already have opam installed, you can skip this step.
+
+  On macOS (using Homebrew):
+  $ brew install opam
+
+2. Then, initialize opam 
+
+  Initializing Opam:
+  $ opam init
+
+You may be asked: "Do you want opam to modify ~/.zshrc? [N/y/f]". If so, enter "y".
+
+You may also be asked: "A hook can be added to opam's init scripts to ensure that 
+the shell remains in sync with the opam environment when they are loaded. Set 
+that up? [y/N]". Enter "y" again.
+
+
+3. Next we’ll install a set of basic libraries that you’ll need for this game:
+  
+  $ opam install async core js_of_ocaml js_of_ocaml-ppx merlin utop ocp-indent
+
+Note that this will also install Core, Jane Street's standard library replacement, 
+which expands on Jane Street's Base library and is used extensively in this game.
+
+The libraries below will be used for the graphics in the game.
+
+  $ brew install xquartz
+
+  $ opam install camlimages graphics 
+
+Then, restart your laptop to finish xquartz installation.
+  
+
+Troubleshooting-
+If terminal provides additional output, we recommend that you install any missing
+libraries or update any previous versions (I.e., follow the hints provided by the 
+terminal).
+ 

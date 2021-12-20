@@ -1,0 +1,3 @@
+(executables
+ (names camel_test cactus_test game_test)
+ (libraries async graphics base camel_lib ounit2))
